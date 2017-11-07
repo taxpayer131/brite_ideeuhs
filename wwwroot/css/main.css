@@ -1,0 +1,19 @@
+#wrapper{
+    width: 100%;
+}
+#register, #login{
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+}
+span{
+    color: #540C0C;
+}
+
+/* #register {
+    border-right: 2px dotted #595151;
+} */
+
+#login {
+    margin-left: 10%;
+}

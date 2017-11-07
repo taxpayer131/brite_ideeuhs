@@ -1,0 +1,63 @@
+header{
+    width: 100%;
+}
+header *{
+    display: inline;
+    vertical-align: text-bottom;
+}
+
+header a{
+    float: right;
+}
+
+form {
+    clear: both;
+}
+
+#newPost p *{
+    vertical-align: bottom;
+}
+
+.posts{
+    width: 80%;
+}
+.post {
+    border: 1px solid #BBC7DC;
+    border-radius: 15px;
+    padding: 2% 2% 0%;
+    width:90%;
+    clear: both;
+}
+
+
+.options {
+    margin: 2%;
+    width: 100%; 
+}
+
+.options *{
+    display: inline-block;    
+}
+
+.delete {
+    width: 20%;
+}
+
+.likes {
+    width: 20%;
+    float: right;    
+}
+.likes *{
+    display: inline;
+    text-align: right;
+}
+
+
+.like{
+    padding-left: 7%;
+    float: right;
+}
+
+a{
+    text-decoration: none;
+}

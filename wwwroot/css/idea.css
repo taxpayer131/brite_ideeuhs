@@ -1,0 +1,12 @@
+nav a{
+    float: right;
+    margin-left: 3%;
+}
+
+p {
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+}

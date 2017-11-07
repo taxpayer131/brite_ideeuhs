@@ -1,0 +1,32 @@
+<link rel="stylesheet" href="~/css/idea.css"/>
+
+<nav>
+    <a href="/logout">Logout</a>
+    <a href="/bright_ideas">Bright Ideas</a>
+</nav>
+<p>
+    <a href="/users/@ViewBag.Post.user.id">@ViewBag.Post.user.alias</a> says: @ViewBag.Post.content
+</p>
+
+<div>
+    <h5>People who liked this post:</h5>
+    <table>
+        <thead>
+            <tr>
+                <th>Alias</th>
+                <th>Name</th>
+            </tr>
+        </thead>
+        <tbody>
+             @{
+                foreach(var user in ViewBag.Users){
+                    <tr>
+                        <td><a href="/users/@user.id">@user.alias</a></td>
+                        <td>@user.name</td>
+                    </tr>
+                }
+            }
+           
+        </tbody>
+    </table>
+</div>
